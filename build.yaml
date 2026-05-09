@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: choccorne_left
-  - board: xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: choccorne_right
