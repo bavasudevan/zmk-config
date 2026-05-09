@@ -1,0 +1,24 @@
+if SHIELD_CHOCCORNE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "choccorne"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_CHOCCORNE_LEFT
+
+if SHIELD_CHOCCORNE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Choccorne Right"
+
+endif
+
+
+if SHIELD_CHOCCORNE_LEFT || SHIELD_CHOCCORNE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_CHOCCORNE_LEFT || SHIELD_CHOCCORNE_RIGHT
