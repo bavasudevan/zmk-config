@@ -5,7 +5,8 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <choccorne-layouts.dtsi>
+#include "choccorne-layouts.dtsi"
+#include "choccorne-layouts.dtsi"
 
 / {
     chosen {
