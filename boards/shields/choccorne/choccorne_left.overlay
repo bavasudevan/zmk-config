@@ -8,7 +8,7 @@
     // Replace these comments with the GPIO pins in the matrix for the left side.
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
     col-gpios
-        = <&gpio0 10 GPIO_ACTIVE_HIGH>   //Col0
+        = <&gpio1 10 GPIO_ACTIVE_HIGH>   //Col0
         , <&gpio1 15 GPIO_ACTIVE_HIGH>   //Col1
         , <&gpio1 14 GPIO_ACTIVE_HIGH>   //Col2
         , <&gpio1 13 GPIO_ACTIVE_HIGH>   //Col3
